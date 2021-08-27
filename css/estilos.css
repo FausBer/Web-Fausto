@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+ body{
+ 	font-family: 'Roboto', sans-serif;
+ }
+
+*{
+	box-sizing:border-box;
+}
+
+header,section{
+	overflow-x:hidden; ;
+}
+
+:root {
+	--light-black:#2e2c2caf;
+	--bggradient:linear-gradient(to bottom,#dd2476,#ff512f);
+}
+
+header.home {
+	background: #dd2476;
+	background:var(--bggradient); 
+}
+
+header nav{
+	background:beige;
+}
+
+header .nav-item:last-child{
+	padding-right:10.5em;
+}
+ header .nav-item{
+ 	padding:0.9em;
+ }
+
+ header .navbar-brand{
+ 	padding-left:8rem;
+ }
+
+ header .navlink:hover{
+ 	color:black;
+ }
+
+ header .row .col-md-5{
+ 	padding:4.2vmin 1vmin;
+ }
+
+ header .row .col-md-7{
+ 	padding:22vmin;
+ 	padding-bottom:35vmin; 
+ 	color:white;
+ }
+
+ header .row .col-md-5 img{
+ 	border-radius:20rem;
+ 	padding-top:4vmin;
+ 	width:130%
+
+
+ }
+
+ header .container .col-md-7 h6{
+ 	padding: 1vmin;
+ 	letter-spacing: 4px;
+ }
+
+ header .container .col-md-7 h1{
+ 	font-size:8vmin;
+ 	font-weight:bold;
+ 	padding:0.1em 0em;  
+ 
+}
+ 
+ header .container .col-md-7 p{
+ 	padding:1vmin 5vmin;
+ }
+
+ header .container .col-md-7 button{
+ 	border-radius:30px;
+ 	font-weight:bold;
+ }
+.imagenAnimacion {
+  transform: scale(1);
+  transition: all 500ms ease-in-out;
+}
+
+.imagenAnimacion:hover {
+  transform: scale(1.1);
+}
+
+/*section*/
+
+.section-1{
+	padding:20vmin 0; 
+}
+.section-1 .row .col-md-6 .pray video{
+	opacity:0.9; 
+	width:90%;
+	border-radius:0.2em;
+}
+.section-1 .row .col-md-6:last-child{
+	position: relative;
+}
+.section-1 .row .col-md-6 .panel{
+	position: absolute;
+	top: 10vmin;
+	left:-12vmin;
+	background:white;
+	border-radius:3px;
+	text-align:left;
+	padding:13vmin 5vmin 20vmin 10vmin;
+	box-shadow:0px 25px 42px rgba(0,0,0,0.2); 
+	z-index:1;
+}
+.section-1 .row .col-md-6 .panel h1{
+	font-weight:bold;
+	padding:0.4em 0;
+	font-size:2em; 
+}
+
+.section-1 .row .col-md-6 .panel p{
+    font-size:0.9em;
+	color:rgba(0,0,0,0.5); ;
+}
+
+/*footer*/
+
+footer{
+	background:rgba(0,0,0,0.812);
+	overflow-x:hidden;
+	padding:14vmin 18vmin;   
+}
+
+footer p>span{
+	color:#ff512f; 
+}
+
+footer input{
+	border:none !important;
+}
+
+footer input::placeholder{
+	color:white !important;
+}
+footer .input-group .input-group-text{
+	background:black;
+	border:none;
+}
+
+footer .column i + i{
+ padding:0 0.5em;
+}

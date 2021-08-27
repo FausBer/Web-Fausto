@@ -1,0 +1,33 @@
+@media only screen and (max-width:768px){
+	header .navbar-brand{
+		padding-left:1rem;
+	}
+	.section-1 .row .col-md-6 .panel{
+		position:initial;
+		width:initial;
+		height:initial;
+	}
+	header .row .col-md-5 img{
+		padding-top:0;
+		width:85%;
+		border-radius:0;
+ 
+	}
+	footer .row .col-md-2{
+		margin-top:8vmin;
+	}
+}
+
+@media only screen and (max-width:1300px){
+
+header .row .col-md-5 img{
+		padding-top:40vmin;
+		width:85%;
+		border-radius:0;
+ 
+	}
+
+
+}
+
+
